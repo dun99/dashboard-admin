@@ -351,7 +351,7 @@ pre {
     }
 
     #layout .content {
-        padding: 2em 3em 0;
+        padding: 2em 5em 0;
         margin-left: 13%;
     }
 }
@@ -385,6 +385,10 @@ pre {
     margin-right: 1em;
 }
 
+.header-title{
+    margin-right: 2em;
+      margin-left: 2em;
+}
 
 @media (max-width: 375px) {
     .pure-username {
@@ -637,4 +641,54 @@ and also iPads specifically.
     .label-margin{
         margin-left: 0;
     }
+
  }
+
+ /*detail-2*/
+ .feature-image{
+     width: 30%;
+     background-color: #999;
+     text-align: center;
+     border-radius: 20px;
+     line-height: 25em;
+     float: left;
+ }
+.col-feature-2{
+}
+.col-2-3{
+     height: 4em;
+     width: 65%;
+     float:right;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     background-color: white;
+     padding-bottom: 1em;
+     padding-top: 1em;
+     padding-left: 2em;
+     margin-bottom: 10px;
+     margin-top: 10px;
+
+}
+.content-detail{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.col-50{
+    width: 31%;
+    margin-left: 3%;
+}
+.image-infor{
+    margin-bottom: 2em;
+}
+@media (max-width: 414px){
+    .feature-image{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .button-repons{
+        float: left;
+    }
+    .col-2-3{
+        width: 100%;
+    }
+}
