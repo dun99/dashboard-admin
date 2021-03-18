@@ -1,0 +1,640 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61, 146, 201);
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+table {
+    width: 100%;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+
+.pure-message {
+    padding: 0.2em 1em;
+    margin-bottom: 0.2em;
+    font-size: 85%;
+    cursor: pointer;
+}
+
+/*Main Page*/
+.header-large h1,
+.header-large h2 {
+    margin: 0;
+}
+
+.header-large h1 {
+    text-transform: uppercase;
+}
+
+.header-large h2 {
+    font-weight: 100;
+    color: rgb(176, 202, 219);
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    *display: inline;
+}
+
+.nav ul li a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #fff;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 85%;
+}
+
+.nav ul li a:hover,
+.nav ul li a:focus,
+.nav ul li .active {
+    border: 2px solid rgb(61, 146, 201);
+    text-decoration: none;
+}
+
+/*Content*/
+.content {
+    padding: 2em 1em 0;
+}
+
+.column-block {
+    margin: 0 0.5em 2em;
+    padding: 0;
+}
+
+.column-block-header {
+    background: #111;
+    color: #fff;
+    text-align: center;
+}
+
+.column-block-header h2 {
+    margin: 0;
+    padding-top: 2em;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.column-block-info {
+    font-size: 6em;
+    margin: 0.2em 0 0;
+    font-weight: 100;
+}
+
+.column-block-info span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.2em;
+    padding-bottom: 2em;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    *color: #fff;
+}
+
+.column-block-list li {
+    padding: 1em;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/*Sidebar*/
+.sidebar {
+    background: #363740;
+    color: #fff;
+}
+
+/*Button*/
+.buble-success,
+.buble-error,
+.buble-warning,
+.buble-secondary {
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+.button-success,
+.message-success,
+.column-success,
+.buble-success,
+.button-error,
+.message-error,
+.column-error,
+.buble-error,
+.button-warning,
+.message-warning,
+.column-warning,
+.buble-warning,
+.button-secondary,
+.message-secondary,
+.column-secondary,
+.buble-secondary {
+    color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success,
+.message-success,
+.column-success,
+.buble-success {
+    background: rgb(28, 184, 65);
+}
+
+.button-error,
+.message-error,
+.column-error,
+.buble-error {
+    background: rgb(202, 60, 60);
+}
+
+.button-warning,
+.message-warning,
+.column-warning,
+.buble-warning {
+    background: rgb(223, 117, 20);
+}
+
+.button-secondary,
+.message-secondary,
+.column-secondary,
+.buble-secondary {
+    background: rgb(66, 184, 221);
+}
+
+.button-xxsmall {
+    font-size: 40%;
+}
+
+.button-xsmall {
+    font-size: 70%;
+}
+
+.button-small {
+    font-size: 85%;
+}
+
+.button-large {
+    font-size: 110%;
+}
+
+.button-xlarge {
+    font-size: 125%;
+}
+
+/*Menu*/
+#menu {
+    z-index: 1000;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#menu a {
+    color: #999;
+    border: none;
+    white-space: normal;
+    padding: 0.625em 1em;
+    text-decoration: none;
+}
+
+#menu .pure-menu ul {
+    border: none;
+    background: transparent;
+    display: block;
+}
+
+#menu .pure-menu ul,
+#menu .pure-menu .menu-item-divided {
+    border-top: 1px solid #354755;
+}
+
+#menu .pure-menu li a:hover,
+#menu .pure-menu li a:focus,
+#menu .pure-menu-selected,
+#menu .pure-menu-selected a {
+    color: #fff;
+    background: rgb(156, 150, 150);
+}
+
+#menu .pure-menu-heading {
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: #fff;
+    padding: 0.5em 0.8em;
+    text-transform: uppercase;
+}
+
+#menu li.pure-menu-selected a:hover,
+#menu li.pure-menu-selected a:focus {
+    background: none;
+}
+
+/*Footer*/
+.footer,
+.navigation {
+    margin: 2em 0 0 0;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.footer {
+    border-top: 1px solid #eee;
+}
+
+.footer a {
+    color: #aaa;
+    font-size: 80%;
+}
+
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+    background: none;
+}
+
+.subhead {
+    color: #333333;
+    padding: 0.8em 0;
+    font-size: 80%;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.icon-right {
+    float: right;
+    padding: 0em 0.5em;
+}
+
+.subhead .pure-username::before {
+    content: "|";
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.pure-username {
+    font-weight: 400;
+}
+
+.avatar {
+    float: right;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.avatar-list {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.pure-table-title {
+    padding: 2em;
+}
+
+/*Media Queries*/
+@media (min-width: 1023px) {
+    .header-large {
+        margin: 20% 2em 0;
+        text-align: right;
+    }
+
+    .header-medium {
+        margin: 10% 2em 0;
+        text-align: left;
+    }
+
+    .header-small {
+        margin: 0 2em 0;
+        text-align: left;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+    #main .content {
+        padding: 2em 3em 0;
+        margin-left: 50%;
+    }
+
+    #layout .content {
+        padding: 2em 3em 0;
+        margin-left: 13%;
+    }
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: left;
+    line-height: 80px;
+    margin-left: 0.5em;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.action-icon {
+    cursor: pointer;
+}
+
+.table-tour {
+    /* border-radius: 10px; */
+    min-width: 375px;
+}
+
+.tour-detail {
+    position: relative;
+    float: left;
+    margin-right: 1em;
+}
+
+
+@media (max-width: 375px) {
+    .pure-username {
+        display: none;
+    }
+}
+
+@media (max-width: 1023px) {
+    p.logo {
+        float: left;
+        font-size: 1.2em;
+        /* line-height: 80px; */
+        margin-left: 1em;
+        /* padding: 0 100px; */
+        font-weight: bold;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .menu-list-ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #3d4f5d;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        z-index: 1000;
+
+    }
+
+    .menu-list-ul li {
+        display: block;
+        line-height: 30px;
+    }
+
+    .menu-list-ul li a {
+        font-size: 20px;
+    }
+
+    .menu-list-ul li a:hover,
+    .menu-list-ul lia.active {
+        background: #3d4f5d;
+        color: #3d4f5d;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    #menu .pure-menu ul {
+        background-color: #363740;
+        height: auto;
+    }
+
+    .icon-adventure {
+        display: none;
+    }
+
+    .hidden-text {
+        display: none;
+    }
+}
+
+/* .menu-list-ul{
+    float: right;
+    margin-right: 20px;
+  }
+  .menu-list-ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  .menu-list-ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  .menu-list-ul li a.active, .menu-list-ul li a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  } */
+.button-new {
+    outline: none;
+    border: none;
+}
+
+.filter {
+    margin-left: 1em;
+}
+
+.pure-table-title {
+    margin-bottom: 1em;
+}
+
+.table-title {
+    float: left;
+}
+
+.icon-right {
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+td,
+th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 18px;
+}
+.next-page{
+    float:right;
+    padding: 2em;
+}
+.next-page-bottom{
+    margin-left: 8px;
+}
+.pointer{
+    cursor: pointer;
+}
+.row-hover:hover{
+    background-color: #bbb;
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+    table {
+        width: 100%;
+        border: none;
+    }
+
+    /* Force table to not be like tables anymore */
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+        border: none;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border-bottom: 0.5px solid #ccc;
+        border-top: 0.5px solid #ccc;
+        border-left: none;
+        border-right: none;
+
+        
+    }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        /* border-bottom: 1px solid #eee; */
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        border: none;
+        top: 6px;
+        left: 6px;
+        float: left;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        content: attr(data-column);
+        color: #000;
+        font-weight: bold;
+    }
+
+    .table-hidden {
+        display: none;
+    }
+}
+/*Dashboard detail*/
+.tour-detail-page{
+    padding-left:2em;
+    padding-right:2em;
+    padding-bottom: 1.5em;
+    padding-top:1em
+}
+.button-while{
+    background-color:white;
+    color: #4266F9;
+    outline: none;
+    border: 1px solid #eee;
+}
+.button-right{
+    float: right;
+}
+.clear-fix{
+    clear: both;
+}
+.button-delete{
+    background-color: white;
+    color: red;
+    border: 1px solid #eee;
+}
+.day-col-1-2{
+    float: left;
+    width: 100%;
+    margin-top: 1em;
+ }
+ .day-label{
+     margin-bottom: 1em;
+     height: 4em;
+     width: 48%;
+     float:left;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     background-color: white;
+     padding-bottom: 1em;
+     padding-top: 1em;
+     padding-left: 2em;
+ }
+ .day-label-100{
+     width: 100%;
+     height: auto;
+ }
+ .label-margin{
+     margin-left: 4%;
+ }
+ @media (max-width: 414px){
+    .day-label{
+        width: 100%;
+    }
+    .label-margin{
+        margin-left: 0;
+    }
+ }
